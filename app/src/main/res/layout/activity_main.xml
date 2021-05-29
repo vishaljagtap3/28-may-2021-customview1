@@ -5,19 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.bitcodetech.customview1.MainActivity">
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enable Exit"
-        android:checked="true"
-        android:id="@+id/chkExit" />
-
-    <in.bitcode.customview1.ExitButton
-        android:id="@+id/btnExit"
-        android:text="Exit App"
+    <com.bitcodetech.customview1.GraphView
+        android:id="@+id/graphView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"/>
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/chkExit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:checked="true"-->
+<!--        android:text="Enable Exit" />-->
+
+<!--    <com.bitcodetech.customview1.ExitButton-->
+<!--        android:id="@+id/btnExit"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Exit App" />-->
+
+<!--    <com.bitcodetech.customview1.TaskView-->
+<!--        android:id="@+id/taskView1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Pay grocery bills..."-->
+<!--        android:textSize="30sp" />-->
+<!--    <com.bitcodetech.customview1.TaskView-->
+<!--        android:id="@+id/taskView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Pay grocery bills..."-->
+<!--        android:textSize="30sp" />-->
 
 </LinearLayout>
